@@ -1,0 +1,67 @@
+/* Selectores con llaves {Estilos}
+tipos de selectores
+1- Etiquetas de h1,p 
+2- las clases se definen con un .Nombredelaclase
+3- La de ID esun objeto distinto a los 
+demas lo cual es unico, es #NombreID, pertence a una etiqueta.
+4-class y ID. */
+
+body{
+    /* el  background-color: sirve para la parte de atras de la pagina web. */
+    background-color: pink;
+
+}
+
+.Fondovershi {
+    background-color:  green;
+}
+
+.h2{
+    background-color: aqua;
+    /* se puede tener mas de uno en los selectores */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Titulo{
+    background-color: #1abc9c;
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+
+}
+
+.boton{
+    display: block;
+    background-color: firebrick;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.botonGRis{
+    background-color: gray;
+
+}
+
+#dolares{
+    width: 300px;
+}
+.texto2{
+    width: 25%;
+    height: 40dvb  ;
+    
+}
+#textounico{
+background-image: url(./Imagenes/annie-spratt-BJ3g2Ck2WfE-unsplash.jpg);
+width: 500px;
+height: 40dvb;
+display: block;
+
+}
+
+ul{
+    background-color: blueviolet;
+    width: 49%; 
+}
+li{
+    background-color: magenta;
+}
+
